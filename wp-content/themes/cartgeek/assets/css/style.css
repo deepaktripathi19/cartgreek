@@ -1,0 +1,555 @@
+body{font-family: 'Muli', sans-serif;}
+ul{margin:0;}
+li{list-style:none;}
+a, a:hover, a:focus{text-decoration:none;}
+button, button:focus, input, select, select:focus, textarea{outline:none;}
+select{-webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background:url(../images/select_arrow.jpg)repeat-y 458px -9px;}
+section, footer{float:left; display:block; width:100%; position:relative;}
+::placeholder {color:#fff; opacity:1;}
+:-ms-input-placeholder {color:#fff;}
+::-ms-input-placeholder {color:#fff;}
+h3{font-size:28px; font-weight:400; line-height:30px; font-family:'Muli', sans-serif;}
+h3 b{font-weight:700;}
+h2{font-size:27px; font-weight:400; line-height:36px; font-family:'Muli', sans-serif;}
+h2 b{font-weight:700;}
+.center-align{align-items: center;}
+.btn_Theme_green{display:inline-block; padding:8px 28px; color:#fff; font-size:13px; background-color:#36c7ac; border:none;border-radius: 0}
+.btn_Transparent_green{display:inline-block; padding:8px 28px; border-radius:28px; color:#fff; background-color:transparent; font-size:13px; border:2px solid #fff;}
+.btn_Theme_white{display:inline-block; padding:8px 28px; font-weight:700; border-radius:28px; color:#36c7ac; background-color:#fff; font-size:15px; border:2px solid #fff;}
+.btnLg{padding:12px 45px; min-width:220px; font-size:16px;}
+.bg_Theme_green{background-color:#36c7ac;}
+.bg_Theme_darkcyan{background-color:#18b5b1;}
+.footer_logo{width:230px;}
+
+.owl-carousel{float:left; width:100%; display:block;}
+.owl-carousel .owl-nav button.disabled{display:none;}
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next{position:absolute;top:calc(50% - 31px);outline:none;width:62px;float:left;height:62px;color:#333;font-size:30px;border-radius:50%;background-color:#fff;-webkit-border-radius:3px;border-radius:50%;border:1px solid #f5f5f5;text-align:center;box-shadow:0 0 20px 14px rgba(51,51,51,0.02)}
+.owl-carousel .owl-nav button.owl-prev{left:-31px}
+.owl-carousel .owl-nav button.owl-next{right:-31px}
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span{display:block;width:100%;height:100%;line-height:50px;font-size:45px}
+
+
+.tabs-nav{margin:14px 0;overflow:hidden;border-radius:28px;background-color:#f2f7f6}
+.tabs-nav li{display:inline-block;color:#6b727e}
+.tabs-nav a{display:block;padding:17px;font-weight:700;color:#6b727e;font-size:15px;font-weight:700;font-family:'Muli',sans-serif}
+.tabs-nav li.active{background:#31b7af;color:#fff}
+.tabs-nav li.active a{color:inherit}
+.tabs-content{padding:0 10px;overflow:hidden}
+.tabs-content .tabsBody:not(:first-child){display:none}
+
+.tabs-content .first_ring{    width: 100%;
+    min-height: 100px;
+    position: absolute; top:0; z-index:20}
+.tabs-content .center {bottom:-58px;}
+
+.tabs-content .second_ring{width: 100%;
+    min-height: 230px;
+    position: absolute; top:0; z-index:10}
+.tabs-content .imgCenter.left {left:28%; bottom:12px;}
+.tabs-content .imgCenter.right {right:28%; bottom:12px; left:auto;}
+
+.tabs-content .third_ring{    width: 100%;
+    min-height: 380px;
+    position: absolute; top:0; z-index:1}
+.tabs-content .third_ring .left{left:9%; bottom:187px;}
+.tabs-content .third_ring .center{bottom:-23px;}
+.tabs-content .third_ring .right{right:9%; bottom:187px; left:auto;}
+.tabs-content .first_ring:after{content:"";position:absolute;width:45%;left:calc(50% - 22.5%);border:2px dashed #888;min-height:490px;border-radius:50%;top:-370px}
+.tabs-content .second_ring:after{content:"";position:absolute;width:68%;left:calc(50% - 34%);border:2px dashed #888;min-height:741px;border-radius:50%;top:-502px}
+.tabs-content .third_ring:after{content:"";position:absolute;width:88%;left:calc(50% - 44%);border:2px dashed #888;min-height:959px;border-radius:50%;top:-602px}
+.tabsBody{position:relative;min-height:460px}
+.tabsBody .imgCenter{position:absolute;top:auto;left:calc(50% - 40px);width:100px;height:100px;z-index:22;background-color:#fff;border:1px solid #f3f3f3;box-shadow:7px 0 18px 3px rgba(51,51,51,0.05)}
+
+.imgCenter img{position:absolute; left:0; top:0; right:0; bottom:0; width:auto; height:auto; max-width:100%; max-height:100%; margin:auto;}
+.sprite_ico{display:inline-block; background:url("../images/sprite_ico.png") no-repeat;}
+.facebook_ico{width:18px; height:18px; background-position:-354px -138px;}
+.twitter_ico{width:18px; height:18px; background-position:-380px -139px;}
+.linkedin_ico{width:18px; height:18px; background-position:-411px -138px;}
+.instagram_ico{width:18px; height:18px; background-position:-442px -139px;}
+.backtop_ico{width:25px; height:25px; background-position:-351px -168px;}
+.brandLogo img{width:245px;}
+.navbar ul li{margin:0 12px;}
+.navbar ul li a{
+    color: #6B727E!important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.navbar ul li.active a {
+    color: #36c7ac!important;
+}
+
+.banner .row{min-height:560px;}
+.banner h1{font-size:24px; font-weight:800; color:#333; line-height:57px; margin: 0 0 25px; font-family:'Muli', sans-serif;}
+.banner h6{font-size:16px; font-weight:400; color:#6b727e; line-height:20px; font-family:'Muli', sans-serif;}
+
+.sectionBanner{min-height:680px; background:url(../images/home-banner.png)no-repeat right -118px;
+    background-size:66%;}
+
+.sectionGoodCompany .points{background-color:#2c9485; border-radius:14px;}
+.sectionGoodCompany .points h4{font-size:32px; font-weight:800; line-height:30px; font-family:'Muli', sans-serif;}
+.sectionGoodCompany .points h5{font-size:15px; font-weight:400; line-height:24px; font-family:'Muli', sans-serif;}
+
+.sectionEcommercePlatform{background:url("../images/ecommerce_bg.png")no-repeat; position:relative;}
+.sectionEcommercePlatform .bg01{position:absolute; width:50%; min-height:700px; z-index:0; left:0; top:0; opacity:0.1; background:url("../images/ecommerce_bg01.png")no-repeat -157px 0px;}
+.sectionEcommercePlatform h4{font-size:27px; font-weight:400; line-height:30px; font-family:'Muli', sans-serif;}
+.sectionEcommercePlatform h2{font-size:42px; font-weight:700; line-height:30px; font-family:'Muli', sans-serif;}
+.sectionEcommercePlatform p{font-size:14px; font-weight:400; line-height:30px; font-family:'Muli', sans-serif;}
+.sectionEcommercePlatform .ecommerce_cardbody button{min-width:180px;}
+
+.sectionEliteCompany p{font-size:17px; font-weight:400; line-height:30px; font-family:'Muli', sans-serif;}
+.sectionEliteCompany .imgCenter{width:42px; height:42px; overflow:hidden; position:relative; display:inline-block; vertical-align:middle;}
+.sectionEliteCompany .col{font-size:15px; font-weight:700; border-radius:10px !important; font-family:'Muli', sans-serif;}
+
+.trustedCarousel .card{border-radius:14px;}
+.trustedCarousel p{font-size:13px; font-weight:400; color:#6b727e; line-height:26px; font-family:'Muli', sans-serif;}
+.trustedCarousel h5{font-size:13px; font-weight:800; color:#333; line-height:20px; margin: 0 0 15px; font-family:'Muli', sans-serif;}
+.trustedCarousel h6{font-size:13px; font-weight:800; color:#6b727e; line-height:20px; font-family:'Muli', sans-serif;}
+
+.sectionTipsTrends {background:url(../images/lightdot.png)no-repeat bottom left 161px;}
+.dottedDivbg {float:left;min-height:120px; background:url(../images/Ellipse16.png)no-repeat top right 167px;background-position-y: 49px;}
+
+.tipsCarousel .card{border-radius:16px;}
+.tipsCarousel .card-body h5{font-size:13px; font-weight:800; color:#333; line-height:30px; font-family:'Muli', sans-serif;}
+.tipsCarousel .card-body p{font-size:12px; font-weight:400; color:#6b727e; line-height:25px; font-family:'Muli', sans-serif;}
+.tipsCarousel .card-body p a{font-size:12px; font-weight:800; color:#29373f; line-height:20px; font-family:'Muli', sans-serif;}
+
+.sectionAboutGeek form input, 
+.sectionAboutGeek form select,
+.sectionAboutGeek form textarea{border:2px solid #fff; width:100%; border-radius:28px; height:50px; padding:8px 25px; background-color:transparent; color:#fff;}
+.sectionAboutGeek form select option{color:#36c7ac; padding:15px; background-color:#fff}
+.sectionAboutGeek form textarea{height:auto;}
+.sectionAboutGeek p{font-size:15px; font-family:'Muli', sans-serif; line-height:28px;}
+.sectionAboutGeek .imgCenter{float:left; width:100%; position:relative; display:block; height:340px;}
+
+.footer h5{font-size:14px; font-weight:700; color:#6b727e; font-family:'Muli', sans-serif;}
+.footer .backtotop{position:absolute;left:calc(50% - 30px);top:-30px;width:60px;height:60px;z-index:999;background:#fff;box-shadow:0 0 18px 4px rgba(51,51,51,0.08);border-radius:50%;text-align:center;padding:18px}
+.footer ul li a, .footer p{font-size:12px; line-height:25px; font-weight:400; color:#6b727e; font-family:'Muli', sans-serif;}
+.bottomfooter .socialIco a{line-height:9px; padding:3px 8px; vertical-align:middle;}
+section.join-our-team h1 {
+    font-weight: 800;
+    letter-spacing: 0.56px;
+    color: #29373F;
+}
+section.join-our-team p {
+    letter-spacing: 0px;
+    color: #5E5E5E;
+    font-weight: 100;
+    margin-top: 35px;
+}
+.small-btn{border-radius: 0;
+    color: #fff!important;
+    background-color: #36C7AC;
+    border: 1px solid #36C7AC;
+    padding: 8px 28px;
+    font-size: 15px;
+    font-weight: 700;}
+.join-team-image img{width: 100%}
+section.join-our-team {
+    padding-top: 80px;
+}
+section.join-our-team button{margin-top: 40px;}
+.cards{background: transparent linear-gradient(180deg, #18B5B1 0%, #36C7AC 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #36C7AC;
+    border-radius: 12px;
+    padding: 20px;
+    height: 210px;
+}
+.cards .card-img {
+    border-radius: 100%;
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding: 4px;
+    vertical-align: unset;
+    display: inline-flex;
+    position: absolute;
+    top: -35px;
+    border: 1px solid #36C7AC;
+
+}
+.cards .card-img img{width: 90%}
+.card-content h4 {
+    padding-top: 30px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-content .listing ul {
+    padding: 0px;
+}
+.card-content .listing ul li {
+    color: #fff;
+    font-size: 16px;
+}
+.listing ul li span {
+    float: right;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+}
+.listing {
+    padding-top: 18px;
+    padding-bottom: 35px;
+}
+.listing ul li span a {
+    color: #fff;
+}
+.section-header h3 {
+    letter-spacing: 0px;
+    color: #29373F;
+    font-size: 30px;
+    font-weight: 600;
+}
+.section-header p {
+    letter-spacing: 0px;
+    color: #5E5E5E;
+    font-weight: 100;
+    padding-top: 30px;
+    padding-bottom: 130px;
+}
+section.open-position-section {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.icon-bg-img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75%;
+}
+.cards2{background: transparent;
+    border: 1px solid #36C7AC;}
+
+
+.cards .card-content .listing ul li {
+    color: #fff;
+    font-size: 16px;
+    background-image: url(../images/list-style2.svg);
+    background-repeat: no-repeat;
+    line-height: 40px;
+    background-position: left;
+    padding-left: 30px;
+    background-size: 15px;
+}
+.cards2 .card-content .listing ul li {
+    color: #fff;
+    font-size: 16px;
+    background-image: url(../images/list-style1.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+    background-size: 15px;
+}
+.cards2 .card-content h4{color: #29373F;} 
+.cards2 .card-content .listing ul li {color: #29373F;}   
+.cards2 .listing ul li span a {color: #36C7AC;}
+section.contact {
+    background-image: url(../images/contact-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 135px 0;
+}
+section.contact h4 {
+    color: #fff;
+    font-size: 27px;
+    padding-bottom: 55px;
+}
+
+.more-about-div {
+    background: transparent linear-gradient(180deg, #18B5B1 0%, #36C7AC 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 15px 2px 40px #0000000F;
+    border-radius: 18px;
+    padding: 30px;
+}
+.more-about-div h4 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.more-about-div p {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+section.more-about-us {
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+.more-about-us .section-header {
+    padding-bottom: 70px;
+}
+.ui-form .form-control {
+    border: 2px solid #fff;
+    width: 100%;
+    border-radius: 28px;
+    height: 50px;
+    padding: 8px 25px;
+    background-color: transparent;
+    color: #fff!important;
+}
+.ui-form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+}
+
+.ui-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.ui-form ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+.btn-white{
+   background-color: #fff;
+    color: #36c7ac;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.ui-form textarea.form-control {
+    border-radius: 23px;
+    height: auto!important;
+}
+.ui-form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background: url(../images/select_arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+section.more-about-us {
+    background: url(../images/lightdot.png)no-repeat bottom -120px right 159px,url(../images/arrow-object.png)no-repeat top 40px left 50px,url(../images/round-object.png)no-repeat top 35px right 300px;
+}
+section.open-position-section{
+    background: url(../images/Ellipse48.png)no-repeat top 50px left -66px,url(../images/Rectangle114.png)no-repeat top 143px right;
+}
+section.join-our-team{background: url(../images/Rectangle114.png)no-repeat top 137px left 110px;
+    background-size: 180px;}
+.graphic-designer h1{color: #18B5B1;
+    font-weight: bolder;
+    font-size: 50px;}
+.apply span {
+    color: #5E5E5E;
+    font-weight: bold;
+    font-size: 20px;
+}
+span.mubai {
+    background-image: url(../images/material-location-on.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+    background-size: 15px;
+}
+span.intern {
+    background-image: url(../images/entrepreneur.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+    background-size: 15px;
+}
+.apply span {
+    margin: 0 25px;
+}
+.apply {
+    padding: 50px 0;
+}
+section.graphic-designer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+section.graphic-designer-section2 .responsibilities h3 {
+    color: #29373F;
+    font-weight: bold;
+}
+section.graphic-designer-section2{padding-bottom: 30px;color: #5E5E5E;}
+section.graphic-designer-section2 .responsibilities h3 {
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.responsibilities ul li:before {
+    list-style-type: disc #;
+    content: "\2022";
+    color: #18B5B1;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+section.graphic-designer-section2 p {
+    padding-top: 20px;
+}
+section.graphic-designer {
+    background: url(../images/arrow-bg.svg)no-repeat top 15px left -70px,url(../images/Rectangle114.png)no-repeat top right -93px;
+    background-size: 36%, 15%;
+}
+.responsibilities ul {
+    padding-inline-start: 25px;
+}
+.member-img img{width: 100%}
+.team-info span {
+    color: #18B5B1;
+    font-weight: 900;
+}
+
+.team-info h4 {
+    font-weight: bold;
+    color: #29373F;
+}
+.team-text h2{color: #29373F;
+    font-weight: 800;font-size: 35px;}
+.team-text p {
+    color: #5E5E5E;
+    margin-top: 40px;
+}    
+section.team {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+section.team {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background: url(../images/Ellipse48.png)no-repeat top -5px right -66px,url(../images/Group147.png)no-repeat top 103px left -11px;
+    background-size: 130px, 200px 116px;
+}
+
+section.team-member-section .team-row1 {
+    background: url(../images/Rectangle114.png)no-repeat bottom -15px right -164px;
+    background-size: 210px;
+}
+section.team-member-section .team-row2 {
+    background: url(../images/Ellipse48.png)no-repeat top -22px left -87px;
+    background-size: 169px;
+}
+section.team-member-section .team-row3{
+    background: url(../images/Rectangle114.png)no-repeat top left,url(../images/Rectangle114.png)no-repeat bottom right;
+    background-size: 210px;
+}
+section.team-member-section .team-row3 {
+    background: url(../images/Rectangle114.png)no-repeat top -6px left -35px,url(../images/Rectangle114.png)no-repeat bottom right -144px;
+    background-size: 182px;
+}
+section.team-member-section .team-row4{
+    background: url(../images/Ellipse48.png)no-repeat bottom -6px left -35px,url(../images/lightdot.png)no-repeat bottom right;
+    background-size: 182px;
+}
+section.team-member-section .team-row4 {
+    background: url(../images/Ellipse48.png)no-repeat bottom 132px left -60px,url(../images/lightdot.png)no-repeat bottom -1px right 47px;
+    background-size: 146px, 110px;
+    padding-bottom: 210px;
+}
+.cover-image {
+    background-image: url(../images/about-geek.png);
+    border-radius: 15px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.life-at-cartgeek h2{
+    color: #29373F;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.lifeat1 {
+    background-image: url(../images/lifeat-2.png);
+     border-radius: 15px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lifeat2{
+    background-image: url(../images/about-geek.png);
+     border-radius: 15px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lifeat3 {
+    color: #29373F;
+    font-size: 40px;
+    font-weight: 900;
+}
+span.color {
+    color: #18B5B1;
+}
+.lifeat5,.lifeat4{
+    background-image: url(../images/lifeat-1.png);
+     border-radius: 15px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lifeat5{background-position: inherit;}
+section.life-at-cartgeek .col-md-4, section.life-at-cartgeek .col-md-8,section.life-at-cartgeek .col-md-12 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.relative{position: relative;}
+.masonry-grid{position: absolute;right: 0}
+.masonry-img1{height: 700px;}
+.masonry-img2{height: 550px}
+.first-img{top: -130px;}
+.second-img{top: 75px;}
+.life-at-cartgeek-section1 {
+    background: url(../images/Ellipse48.png)no-repeat top  right,url(../images/Rectangle114.png)no-repeat top  left;
+}
+.life-at-cartgeek-section1 {
+    background: url(../images/Ellipse48.png)no-repeat top right -65px,url(../images/Rectangle114.png)no-repeat bottom left -25px;
+    padding-top: 80px;
+    background-size: 130px,220px 100px;
+}
+.bottom{
+    padding-top: 50px;
+    background: url(../images/Ellipse48.png)no-repeat bottom 132px left -60px,url(../images/lightdot.png)no-repeat bottom -1px right 47px;
+    background-size: 146px, 110px;
+    padding-bottom: 210px;
+}
+.life-at-middle-section{background: url(../images/Ellipse48.png)no-repeat bottom 132px left -90px}
+.about p {
+    font-size: 25px;
+    font-weight: 600;
+    color: #5E5E5E;
+    margin-top: 80px;
+}
+.about h3{ font-weight: 800;
+    font-size: 40px;
+    color: #29373F;}
+.about p span {
+    color: #18B5B1;
+} 
+section.about-us {
+    background: url(../images/Group1885.svg)no-repeat bottom right -32%,url(../images/Group3352.svg)no-repeat bottom left -5%,url(../images/Ellipse48.png)no-repeat top -7px right -45px,url(../images/Rectangle114.png)no-repeat top left -99px;
+    height: 70vh;
+    background-size: 42%, 25%, 100px,180px;
+    padding-top: 100px;
+}
+section.who-we-are-section {
+    background-image: url(../images/Group1889.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    background-position: top center;
+    padding-bottom: 150px;
+}
+section.who-we-are-section{color: #fff}
+section.who-we-are-section h3 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
